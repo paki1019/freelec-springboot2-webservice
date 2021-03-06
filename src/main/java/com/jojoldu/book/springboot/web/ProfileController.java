@@ -22,6 +22,6 @@ public class ProfileController {
         return profiles.stream()
                 .filter(realProfiles::contains)
                 .findAny()
-                .orElse(defaultProfile);
+                .orElse("default");
     }
 }
