@@ -1,4 +1,4 @@
-#!/bin/#!/usr/bin/env bash
+#!/bin/bash
 
 REPOSITORY=/home/ec2-user/app/step2
 PROJECT_NAME=freelec-springboot2-webservice
